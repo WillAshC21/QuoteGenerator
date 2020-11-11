@@ -1,0 +1,33 @@
+body {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+#quote-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 10px;
+    width: 35%;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.931);
+    box-shadow: 5px 3px 1px 3px;
+}
+#author {
+    text-align: right;    
+}
+#quote {
+    text-align: left;
+}
+
+
+#generate {
+    padding: 20px 32px;
+    font-size: 32px;
+    background-image: linear-gradient(to right,#ffff33, #ffec80,#ff7733);
+}
